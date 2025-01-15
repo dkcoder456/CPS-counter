@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicks Per Second Counter [CPS]</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Click Counter</h1>
+        <div class="counter-box">
+            <p>Clicks in current 5s interval: <span id="currentClicks">0</span></p>
+            <p>Previous 5s interval: <span id="previousClicks">0</span></p>
+            <p>Time remaining: <span id="timer">5.0</span>s</p>
+        </div>
+        <div class="see-spped" style="margin-bottom: 10px;">
+            Go to console window to see the speed of clicks.
+        </div>
+        <button id="clickBtn">Click Me!</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
